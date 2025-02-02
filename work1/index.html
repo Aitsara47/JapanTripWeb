@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d56165d91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="alert-bar" id="top">
+        <p class="alert-text">🎌🎌🎌🍡🍡🍡🍙🍙 Book Your Flight Now and Get 15% Discount! 🍙🍙🍡🍡🍡🎌🎌🎌</p>
+    </div>
+    <nav class="nav-bar">
+        
+        <div class="left-nav-content">
+            <!-- <img src="../components/japan/freepik__adjust__38728.png" alt="" class="logo"> -->
+            <h1>JapanTrav</h1>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="ค้นหาทริป" class="search-box" id="search-content">
+            <button class="search" id="search_button"> <i class="fa-solid fa-magnifying-glass-location"></i> </button>
+        </div>
+
+        <div class="right-nav-content">
+            <button class="language">TH/EN</butt>
+            <button class="bars-icon" onclick=toggleBars() ><i class="fa-solid fa-bars" id="bar" ></i></button>
+            <div class="small-bar hide">
+                <a href="">Account</a>
+                <a href="">Help</a>
+                <a href="login.html" style="color:red">Log out</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <nav class="side-bar">
+            <ul class="topic">
+                <a href=""><li>Recomended</li></a>
+                <a href=""><li>Location</li></a>
+                <a href="index.html"><li>All Trip</li></a>
+                <a href=""><li>Cart</li></a>
+                <a href=""><li>Payment</li></a>
+                <a href=""><li>Discount</li></a>
+            </ul>
+        </nav>
+        <div class="main-content" id="all-content">
+
+
+            
+        </div>
+        <nav class="toggle-side-bar">
+            <button onclick="showSideBar()" id="button-for-side-bar">
+                HIDE SIDE BAR
+            </button>
+        </nav>
+    </main> 
+    <div>
+        
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus dolore illum cupiditate eaque esse, voluptatibus nobis perspiciatis? Velit ipsa sunt accusamus laudantium dolore ad iste laboriosam, nulla repellendus. Sequi.</p>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus dolore illum cupiditate eaque esse, voluptatibus nobis perspiciatis? Velit ipsa sunt accusamus laudantium dolore ad iste laboriosam, nulla repellendus. Sequi.</p>
+            </div>
+            <div>
+                <h2>CopyRight</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus dolore illum cupiditate eaque esse, voluptatibus nobis perspiciatis? Velit ipsa sunt accusamus laudantium dolore ad iste laboriosam, nulla repellendus. Sequi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a  class="to-top" href="#top">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+    <script src="./main.js"></script>
+</body>
+</html>
